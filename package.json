@@ -4,5 +4,12 @@
   "description": "command line tools for 12306.cn",
   "main": "index.js",
   "author": "zhangyang",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^6.1.2"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "request": "^2.74.0"
+  }
 }

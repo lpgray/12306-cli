@@ -1,0 +1,21 @@
+# EditorConfig is awesome: http://EditorConfig.org
+
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+[*.{js,py,json,css,html}]
+charset = utf-8
+
+[*.py]
+indent_style = space
+indent_size = 4
+
+[Makefile]
+indent_style = tab
+
+[*.{js,json,css,html,eslintrc,editorconfig}]
+indent_style = space
+indent_size = 2

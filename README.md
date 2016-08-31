@@ -11,11 +11,7 @@
 ## 使用
 
 ```bash
-> 12306 query hangzhou to xuzhou at 2016-09-20
+> 12306 query hangzhou xuzhou 2016-09-20
 
-> 12306 query hangzhou to xuzhou between 2016-09-20 and 2016-09-31
-
-> 12306 query 杭州 to 徐州 at 2016-09-20
-
-> 12306 query 杭州 to 徐州 between 2016-09-20 and 2016-09-31
+> 12306 query 杭州 徐州 2016-09-20,2016-09-31
 ```
