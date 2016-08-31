@@ -1,8 +1,8 @@
 # 12306-cli
 
-![](./screenshot.png)
-
 看到网上有个小伙伴用 python 实现了一款火车票查询工具，因此萌生了用 JavaScript 实现的冲动。此工具在 osx 下开发，windows 尚未测试。
+
+![截图](./screenshot.png)
 
 ## !!待完成
 
