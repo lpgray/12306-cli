@@ -1,0 +1,8 @@
+{
+  "name": "12306-cli",
+  "version": "0.1.0",
+  "description": "command line tools for 12306.cn",
+  "main": "index.js",
+  "author": "zhangyang",
+  "license": "MIT"
+}
