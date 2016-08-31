@@ -16,5 +16,16 @@
     "columnify": "^1.5.4",
     "commander": "^2.9.0",
     "request": "^2.74.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpgray/12306-cli.git"
+  },
+  "keywords": [
+    "12306"
+  ],
+  "bugs": {
+    "url": "https://github.com/lpgray/12306-cli/issues"
+  },
+  "homepage": "https://github.com/lpgray/12306-cli#readme"
 }
