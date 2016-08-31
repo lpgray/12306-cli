@@ -1,6 +1,6 @@
 {
   "name": "12306-cli",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "command line tools for 12306.cn",
   "main": "bin/index.js",
   "author": "zhangyang",
