@@ -6,10 +6,6 @@
 
 ![](http://ww1.sinaimg.cn/large/8df27f17gw1f7dfzklo8pj21kw0s2drz.jpg)
 
-## !!待完成
-
-* 出发地和到达站是写死的，还没开始搞。
-
 ## 用到的工具
 
 * chalk - 命令行字体加色
