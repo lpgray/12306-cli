@@ -21,8 +21,22 @@
 
 ## 使用
 
+### 使用说明
+
+```bash
+> 12306 query -h
+```
+
+### 查询车票
+
 ```bash
 > 12306 query hangzhou xuzhou 2016-09-20
 
 > 12306 query 杭州 徐州 2016-09-20
+```
+
+只看高铁
+
+```bash
+> 12306 query hangzhou xuzhou 2016-09-20 --gaotie
 ```
