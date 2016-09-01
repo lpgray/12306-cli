@@ -10,7 +10,10 @@ const pkgInfo = require('../package.json');
 const queryFunc = require('../lib/query');
 const commandParser = function(afterParseFunc) {
   return function(frm, to, at) {
-    afterParseFunc.call(this, frm, to, at);
+    afterParseFunc.call(this, frm, to, at, {
+      highway: this.gaotie,
+      purposeCode: 'ADULT'
+    });
   }
 };
 const program = commander.version(pkgInfo.version);
@@ -24,9 +27,7 @@ program
   .alias('q')
   .description('查询指令')
   .action(commandParser(queryFunc))
-  .option('--gaotie', '只看高铁')
-  // .option('-d, --destination', '目的地')
-  // .option('-a, --at', '具体日期');
+  .option('-G, --gaotie', '只看高铁/动车');
 
 
 program
