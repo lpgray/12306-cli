@@ -1,5 +1,7 @@
 # 12306-cli
 
+> 12306 修改了查询接口数据格式，本项目暂时不可用，请周知
+
 [![NPM Version](https://img.shields.io/npm/v/12306-cli.svg?style=flat)](https://npmjs.org/package/12306-cli)
 
 看到网上有个小伙伴用 python 实现了一款火车票查询工具，因此萌生了用 JavaScript 实现的冲动。此工具在 osx 下开发，windows 尚未测试。
